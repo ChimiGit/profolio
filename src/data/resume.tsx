@@ -8,9 +8,9 @@ export const DATA = {
   location: "Thimphu, Bhutan",
   locationLink: "https://www.google.com/maps/place/Thimphu",
   description:
-    "I am a software engineer and Freelancer. I love building things. I am very active on Facebook.",
+    "I'm a software engineer and freelancer with a passion for building innovative solutions.",
   summary:
-    "I am a software engineer and Freelancer. I love building things. I am very active on Facebook.",
+    "I'm a software engineer and freelancer passionate about crafting innovative solutions that make a difference.",
   avatarUrl: "/me.jpg",
   skills: [
     "React",
@@ -71,7 +71,7 @@ export const DATA = {
       title: "Software Engineer",
       logoUrl: "/cb.png",
       start: "June 2021",
-      end: "Present",
+      end: "January 2026",
       description:
         "CloudBhutan is a cloud computing company that provides cloud computing services to the people of Bhutan. I am a software engineer at CloudBhutan and I am responsible for the development of the Websites and Systems.",
     },
