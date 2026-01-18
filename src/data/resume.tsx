@@ -16,6 +16,8 @@ export const DATA = {
     "React",
     "Next.js",
     "React Native",
+    "Hono api",
+    "Elysia api",
     "Astro",
     "Typescript",
     "Nest.js",
@@ -27,7 +29,6 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "ctshering208@gmail.com",
@@ -63,6 +64,18 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "Freelancer",
+      href: "",
+      badges: [],
+      location: "Remote",
+      title: "Software Engineer",
+      logoUrl: "/zentaralogo2-01.png",
+      start: "January 2026",
+      end: "Present",
+      description:
+        "I am a freelancer and I am responsible for the development of the Websites and Systems.",
+    },
     {
       company: "CloudBhutan",
       href: "https://cloudbhutan.com",
@@ -167,6 +180,26 @@ export const DATA = {
         },
       ],
       image: "/bhutansoul.png",
+    },
+    {
+      title: "Alife Website",
+      href: "https://alife.institute/",
+      dates: "August 2025 - October 2025",
+      active: true,
+      description:
+        "ALIFE is a company that deals with IT Infrastructure and Services.",
+      technologies: [
+        "Astro",
+        "Github Deployment",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://alife.institute/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/alife.png",
     },
   ],
   hackathons: [
