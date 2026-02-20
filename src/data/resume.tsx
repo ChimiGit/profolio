@@ -208,7 +208,7 @@ export const DATA = {
         "Next.js",
         "TypeScript",
         "Material UI",
-        "Local Payment Gateway",
+        "International Payment Gateway",
         "Digital Ocean Deployment",
       ],
       links: [
