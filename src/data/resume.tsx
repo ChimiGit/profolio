@@ -27,9 +27,7 @@ export const DATA = {
     "Docker",
     "Kubernetes",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "ctshering208@gmail.com",
     tel: "+975-17568603",
@@ -188,10 +186,7 @@ export const DATA = {
       active: true,
       description:
         "ALIFE is a company that deals with IT Infrastructure and Services.",
-      technologies: [
-        "Astro",
-        "Github Deployment",
-      ],
+      technologies: ["Astro", "Github Deployment"],
       links: [
         {
           type: "Website",
@@ -200,6 +195,53 @@ export const DATA = {
         },
       ],
       image: "/alife.png",
+    },
+    {
+      title: "Kathok Membership System",
+      href: "https://member.kathokbhutan.com/",
+      dates: "2022 Oct - 2023 Dec",
+      active: true,
+      description:
+        "Membership portal for Kathok Bhutan—managing member registration, profiles, and access to Kathok-related services and content.",
+      technologies: [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Material UI",
+        "Local Payment Gateway",
+        "Digital Ocean Deployment",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://member.kathokbhutan.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/kathok.png",
+    },
+    {
+      title: "Bhutan Immigration Services Portal",
+      href: "https://immi.gov.bt/",
+      dates: "2024 - Present",
+      active: true,
+      description:
+        "Official Bhutan Immigration Services Portal (immi.gov.bt) for visa, permit, and immigration-related services—streamlining applications and information for citizens and visitors.",
+      technologies: [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Material UI",
+        "Nest.js",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://immi.gov.bt/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/immi.png",
     },
   ],
   hackathons: [
